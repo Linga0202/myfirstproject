@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>displaying</title>
+    <title>forms</title>
+    <style>
+      table
+      {
+        border: 5px red;
+      }
+    </style>
 </head>
-<body>
+<body> 
     <h2><u><em> Registration Form</em></u></h2>
+    <table style="width: 100%;">
     <form action="main.java" method="post">
-    <label for="name">Name:</label>
+    <label for="name">Name*</label>
     <br>
     <input type="text"name="name" id="name" placeholder="Enter your name">
     <label for="name">&nbsp;&nbsp;</label>
     <input type="text" name="last" id="name" placeholder="Enter surname">
     <br><br>
-    <label for="name">Father Name</label>
+    <label for="name">Father Name*</label>
     <br>
     <input type="text" name="name" id="name" placeholder="Enter the name">
     <label for="name">&nbsp;&nbsp;</label>
     <input type="text" name="name" id="name" placeholder="Enter surname">
 <br><br>
-    <label for="email">Email:</label> <br>
+    <label for="email">Email*</label> <br>
     <input type="email" name="Email" id="email" placeholder="Enter your Email">
     <br><br>
-    <label for="pass">Password:</label><br>
+    <label for="pass">Password*</label><br>
     <input type="pass" name="Password" id="pass" placeholder="Enter your password">
     <br><br>
 <input type="radio" id="f" name="Gender" value="male">
@@ -32,9 +39,12 @@
 <label for="female">Female</label>
  <br>
  <br>
-        <label for="age">Age</label>
+
+
+
+        <label for="age">Age*</label>
        <input type="number" name="age" id="age" placeholder="Enter your age"> <br><br>
-    <label for="religion">Religion:</label>
+    <label for="religion">Religion*</label>
 
 
       <select name="blank" id="">
@@ -42,22 +52,12 @@
     <option value="indian">Foregin</option>
       </select>
       <br><br>
-      <button type="submit">summit</button>
+      <label for="address" name="address" id="add proof" >Address*</label>
+      <input type="text" name="address" id="add proof"  placeholder="locality name"><br><br>
 
+         <button type="submit">summit🎶</button> 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
+    </table>
     <!-- <button type="submit">submit</button>
     <input type="submit" value="inside" > <br><br>
     <label for="DOB">DOB:</label>
