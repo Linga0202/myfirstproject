@@ -1,0 +1,57 @@
+body
+{
+    display: flex;
+    border: 20px solid ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+background-color: bisque;  
+
+}
+.outer
+{
+    border: 32px solid rgba(46, 21, 50, 0.947);
+    border-radius: 150px;
+   
+    
+}
+.inner
+{
+     border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background-attachment: absolute ;
+    background-color: whitesmoke ;
+    
+    display: flex; 
+    box-shadow: 100px;
+    padding: 25px ;
+    margin: 10px;
+   
+
+
+}
+#l1:hover
+{
+    height: 100px;   
+    width: 100px;
+    background-color:  red;
+    animation: l1;
+    animation-duration: 5s ;
+
+}
+#l2:hover
+{
+    background-color: green;
+    color: beige;
+
+}
+#l3:hover
+{
+    background-color: yellow;
+}
+
+
+

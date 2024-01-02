@@ -1,0 +1,34 @@
+body
+{
+    border: 4px solid;
+ 
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(179, 141, 214);
+     
+
+
+}
+.outer
+{
+    display: flex;
+    border: 5px solid ;
+    height: 500px;
+    width: px;
+    border-radius: 1px;
+    margin: 50px;
+    gap: 50px;
+    background-image: url("https://img.freepik.com/free-photo/men-women-embrace-sunset-generative-ai_188544-12581.jpg?size=626&ext=jpg&ga=GA1.1.1314440392.1703606506&semt=ais");
+    align-items: center;
+    padding: 100px;
+    box-shadow: 100px;
+
+   
+}
+#h1:hover
+{   
+
+
+    border: 15px solid;
+    border-radius: 50px;
+}

@@ -1,0 +1,47 @@
+body
+{
+    background-color: rgb(red, green, blue);
+    background-image:url("https://img.freepik.com/free-photo/multi-colored-creativity-close-up-human-eye-generated-by-ai_188544-15574.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1703548800&semt=ais");
+    background-repeat: no-repeat ;
+    background-position:center;
+    background-size: contain;
+    background:linear-gradient( left, red, fixed)
+   
+}
+.outer
+{
+    border: 5px solid black ;
+ 
+    text-align: center;
+    background-color: aquamarine;
+    color: green ;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+#h2
+{
+    text-align:center;
+    background-color: aquamarine;
+    color: rebeccapurple;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 100px;
+    
+    border: 2.9px solid rgb(152, 15, 224);
+    display:list-item;
+    font: display 100px ;
+}
+#para
+{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    color: blueviolet;
+    border: 5px solid goldenrod;
+    border-radius: 50px 10px;
+
+
+}
