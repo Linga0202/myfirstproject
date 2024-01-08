@@ -1,0 +1,109 @@
+body
+{
+    background-color: rgb(235, 153, 153);
+    height: 100vh;
+    width: auto;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#sec1
+{
+    background-image: url("https://img.freepik.com/free-vector/organic-fluid-background_1199-354.jpg?size=626&ext=jpg&ga=GA1.1.1314440392.1703606506&semt=ais");
+}
+.h2
+{
+    background-color: rgb(110, 165, 46);
+    color: black
+}
+.heading
+{
+    color: antiquewhite;
+    font-size: 35px;
+    padding: ;
+}
+.para
+{
+    color: azure;
+}
+#name
+{
+    width: 80%;
+
+    height:20px ;
+}
+#name2{
+    flex-direction: row;
+    width: 30.5%;
+    height: 20px;
+   row-gap: 25px;
+   justify-content: flex-start;
+   column-gap: 100px;
+}
+#birth
+{
+    padding: auto;
+    flex-direction: row;
+     width: 30.%;
+     height: 20px;
+     margin: 10px;
+     justify-content: center;
+    margin: 10px;
+}
+#email
+{ margin: 10px;
+  width: 30%;
+  
+    flex-direction: row;
+    padding-left: 10px;
+}
+#domi
+{
+    
+    margin: 0px;
+  width: 30%;
+  
+    flex-direction: row;
+    padding-left: 10px;
+}
+#cp
+{
+       margin: 10px;
+    width: 35%;
+    height: 18px;
+      flex-direction: row;
+      padding: 1px;
+}
+#cou{
+    margin: 10px;
+    padding: auto;
+    gap: px;
+
+}
+
+.column
+{
+    display: flex;
+    color: rgba(243, 238, 238, 0.85);
+    font-size: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/blue-squares-blue-background-minimal-abstract-illustration_331133-21.jpg?size=626&ext=jpg&ga=GA1.1.1314440392.1703606506&semt=ais);
+   
+   
+}
+#add
+{
+    width: 70%;
+    height: 20px;
+}
+#city
+{
+    width: 30px;
+    height: 20px;
+}
+.column
+{
+    columns: inline;
+    gap: 30px;
+    padding-left: 10px;
+    align-items: end;
+}
